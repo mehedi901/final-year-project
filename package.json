@@ -1,8 +1,9 @@
 {
-  "homepage": "https://mehedi901.github.io/final-year-project",
+  
   "name": "final-year-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mehedi901.github.io/final-year-project",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -13,6 +14,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "github-pages": "^3.0.2",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.8.0",
     "react-dom": "^18.2.0",
@@ -20,9 +22,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "github-pages -d build",
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"main -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
