@@ -7,7 +7,7 @@ import ProductCard from './ProductCard'
 import { filters, singlenFilter } from './FilterData'
 import { FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
 import FilterListIcon from '@mui/icons-material/FilterList';
-import { Search } from '@mui/icons-material'
+// import { Search } from '@mui/icons-material'
 import { useLocation, useNavigate } from 'react-router-dom'
 
 const sortOptions = [
